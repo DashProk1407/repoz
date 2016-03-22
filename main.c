@@ -2,11 +2,11 @@
 
 int main ()
 {
-    int a, b, c;
+	int a, b, c;
 
-    printf("Enter a, b, c: ");
-    scanf("%d%d%d", &a, &b, &c);
+	printf("Enter a, b, c: ");
+	scanf("%d%d%d", &a, &b, &c);
 
-    equ(a,b,c);
-    return 1;
+	equ(a,b,c);
+	return 1;
 }
