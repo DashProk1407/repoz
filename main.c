@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "equ.h"
 
 int main ()
 {
@@ -7,6 +8,6 @@ int main ()
 	printf("Enter a, b, c: ");
 	scanf("%d%d%d", &a, &b, &c);
 
-	equ(a,b,c);
-	return 1;
+	equ(a, b, c);
+	return 0;
 }
