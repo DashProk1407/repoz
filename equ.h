@@ -1,0 +1,1 @@
+int equ(int a, int b, int c);
