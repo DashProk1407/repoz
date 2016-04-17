@@ -36,7 +36,7 @@ CTEST(equation_suite, oneroots_test)
 	//Then
 	const double expected_x1 = 2.2;
 
-	ASSER_DBL_NEAR(expected_x1, x1);
+	ASSERT_DBL_NEAR(expected_x1, x1);
 	ASSERT_EQUAL(ONEROOT, rv);
 }
 
@@ -54,7 +54,7 @@ CTEST(equation_suite, oneroots2_test)
 	//Then
 	const double expected_x1 = -3;
 
-	ASSER_DBL_NEAR(expected_x1, x1);
+	ASSERT_DBL_NEAR(expected_x1, x1);
 	ASSERT_EQUAL(ONEROOT, rv);
 }
 
