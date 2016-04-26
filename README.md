@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/DashProk1407/repoz.svg?branch=master)](https://travis-ci.org/DashProk1407/repoz)
